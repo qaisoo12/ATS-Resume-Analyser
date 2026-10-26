@@ -12,7 +12,7 @@ import time
 from typing import List
 
 import streamlit as st
-from docx import Document
+from docx import Document(File "/mount/src/ats-resume-analyser/app.py")
 from google import genai
 from google.genai import types
 from pydantic import BaseModel, Field
