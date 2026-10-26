@@ -13,7 +13,7 @@ from google import genai
 from google.genai import types
 from pypdf import PdfReader
 
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-5-flash"
 MAX_RESUME_CHARS = 20000
 MAX_JD_CHARS = 8000
 
