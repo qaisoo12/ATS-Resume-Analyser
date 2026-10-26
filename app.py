@@ -8,7 +8,7 @@ import re
 from io import BytesIO
 
 import streamlit as st
-from docx import Document
+from docx import Document(pip install python-docx)
 from google import genai
 from google.genai import types
 from pypdf import PdfReader
