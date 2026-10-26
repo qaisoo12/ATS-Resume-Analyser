@@ -12,7 +12,7 @@ import time
 from typing import List
 
 import streamlit as st
-from docx import Document
+pip install python-docx
 from google import genai
 from google.genai import types
 from pydantic import BaseModel, Field
