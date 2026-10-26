@@ -25,7 +25,7 @@ from pypdf import PdfReader
 # "gemini-flash-latest" is an alias that always points to the newest Flash model,
 # so the app keeps working when older model versions are retired.
 # Override it with the GEMINI_MODEL secret / environment variable if you like.
-DEFAULT_MODEL = "gemini-flash-latest"
+DEFAULT_MODEL = "gemini-flash-5"
 MAX_FILE_MB = 5
 MAX_RESUME_CHARS = 30_000
 MAX_JD_CHARS = 8_000
