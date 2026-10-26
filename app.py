@@ -12,7 +12,7 @@ import time
 from typing import List
 
 import streamlit as st
-from docx import Document(File "/mount/src/ats-resume-analyser/app.py")
+from docx import Document
 from google import genai
 from google.genai import types
 from pydantic import BaseModel, Field
@@ -24,7 +24,7 @@ from pypdf import PdfReader
 
 # "gemini-flash-latest" is an alias that always points to the newest Flash model,
 # so the app keeps working when older model versions are retired.
-# Override it with the GEMINI_MODEL secret / environment variable if you like.
+# Override it with the GEMINI_MODEL_5 secret / environment variable if you like.
 DEFAULT_MODEL = "gemini-flash-5"
 MAX_FILE_MB = 5
 MAX_RESUME_CHARS = 30_000
